@@ -1,0 +1,216 @@
+<html>
+
+<head>
+
+<style>
+
+#demo
+
+{
+
+width:300;
+
+height:570;
+
+border:20px groove #666;
+
+margin-top:40px;
+
+border-top-left-radius:10%;
+
+border-top-right-radius:10%;
+
+border-bottom-left-radius:20%;
+
+border-bottom-right-radius:20%;
+
+background:white;
+
+}
+
+.res
+
+{
+
+font-size:24px;
+
+height:100;
+
+width:100;
+
+background:#666;
+
+color:white;
+
+border:10px groove #333;
+
+margin:10px;
+
+display:inline;
+
+padding:5px;
+
+border-radius:20%;
+
+box-shadow:5px 5px 1px #999;
+
+}
+
+.res:active
+
+{
+
+background:white;
+
+color:black;
+
+}
+
+#d3:active
+
+{
+
+background:white;
+
+color:black;
+
+}
+
+#d4:active
+
+{
+
+background:white;
+
+color:black;
+
+}
+
+ 
+
+#d3,#d4
+
+{
+
+height:30px;
+
+width:100px;
+
+background:#666;
+
+color:white;
+
+margin:50px 15px;
+
+display:inline;
+
+border-radius:5%;
+
+border:12px groove #333;
+
+padding:8px 20px;
+
+box-shadow:3px 3px 1px #999;
+
+}
+
+</style>
+
+<script>
+
+function calc(v)
+
+{
+
+if(v!='=' && v!='c' && v!='d')
+
+t1.value+=v;
+
+if(v=='=')
+
+t1.value=eval(t1.value);
+
+if(v=='c')
+
+t1.value="";
+
+if(v=='d')
+
+{
+
+str=(t1.value).toString();
+
+str1=str.split("");
+
+t1.value="";
+
+for(i=0;i<str1.length-1;i++)
+
+t1.value+=str1[i];
+
+}
+
+}
+
+</script>
+
+</head>
+
+<body style="background-image: url('math_img.jpg');">
+
+<center>
+
+<div id="demo" style="box-shadow:20px -20px 1px #666666;">
+
+<div id="d1" style="height:25px;width:250px;background:purple;float:right;margin:10px 25px;border-radius:10%;border:1px double black;color:yellow; font-size:18px; 
+font-weight:800;">Digital Calculator</div><br><br>
+
+
+ 
+<div id="d2"style="height:50px;  width:210px; background:#063; margin:15px; border-radius:5%; border:20px groove #333;">
+    <textarea name="t1"id="t1"rows="3" cols="27" style="background:#063;color:white;float:left; text-align:right; font-size:13px;" readonly >
+    </textarea></div><br>
+
+<hr><br><br>
+
+<div id="d3" onClick="calc('c')">C</div>
+
+<div id="d4" onClick="calc('d')">CC</div><br><br><br><br>
+
+<div class="res" onClick="calc('7')"> 7 </div>
+
+<div class="res" onClick="calc('8')"> 8 </div>
+
+<div class="res" onClick="calc('9')"> 9 </div>
+
+<div class="res" onClick="calc('/')"> / </div><br><br><br>
+
+<div class="res" onClick="calc('4')"> 4 </div>
+
+<div class="res" onClick="calc('5')"> 5 </div>
+
+<div class="res" onClick="calc('6')"> 6 </div>
+
+<div class="res" onClick="calc('*')">*</div><br><br><br>
+
+<div class="res" onClick="calc('1')"> 1 </div>
+
+<div class="res" onClick="calc('2')"> 2 </div>
+
+<div class="res" onClick="calc('3')"> 3 </div>
+
+<div class="res" onClick="calc('-')"> – </div><br><br><br>
+
+<div class="res" onClick="calc('0')"> 0 </div>
+
+<div class="res" onClick="calc('.')"> . </div>
+
+<div class="res" onClick="calc('+')"> + </div>
+
+<div class="res" onClick="calc('=')"> = </div>
+
+</div></center>
+
+</body>
+
+</html>

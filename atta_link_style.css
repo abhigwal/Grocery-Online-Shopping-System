@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+.search{
+    background-color: white;
+    padding: 8px 10px;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    box-shadow: -4px -4px 10px rgba(0,0,0,0.1), 
+    -4px -4px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.login{
+    padding: 5px 30px;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 550px;
+    border: none;
+    outline: none;
+    color: blue;
+    border-radius: 3px;
+}
+.nav{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+/*************clone*******/
+
+.clonenav{
+    height: 120px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px;
+    border-bottom: 1px solid wheat;
+    background-color: white;
+}
+
+.clonetopoffer{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonetopoffer img{
+    height: 64px;
+    width: 64px;
+}
+.clonetopoffer p{
+    font-weight: 510px;
+}
+.clonetopoffer:hover p{
+    color: #2874f0;
+
+}
+
+
+
+
+/*--------------------atta-------------------------*/
+
+.cloneatta{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.cloneatta img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.cloneatta p{
+    font-weight: 510px;
+    text-align: center;
+}
+.cloneatta:hover p{
+    color: #2874f0;
+
+}
+
+/*--------------------masala-------------------------*/
+.clonemasala{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonemasala img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonemasala p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonemasala:hover p{
+    color: #2874f0;
+
+}
+
+/*--------------------snacks-------------------------*/
+
+.clonesnacks{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonesnacks img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonesnacks p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonesnacks:hover p{
+    color: #2874f0;
+
+}
+
+/*--------------------Beverage-------------------------*/
+
+
+
+
+.clonebeverage{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonebeverage img{
+    height: 64px;
+    width: 50px;
+    padding: 0px 14px;
+}
+.clonebeverage p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonebeverage:hover p{
+    color: #2874f0;
+
+}
+
+
+/*--------------------care-------------------------*/
+
+
+
+
+.clonecare{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonecare img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonecare p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonecare:hover p{
+    color: #2874f0;
+
+}
+
+
+
+/*--------------------baby-------------------------*/
+
+
+.clonebaby{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonebaby img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonebaby p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonebaby:hover p{
+    color: #2874f0;
+
+}
+
+/*--------------------household-------------------------*/
+
+
+
+
+
+
+.clonehousehold{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonehousehold img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonehousehold p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonehousehold:hover p{
+    color: #2874f0;
+
+}
+
+
+
+/*-------------------home-------------------------*/
+
+
+.clonehome{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonehome img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonehome p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonehome:hover p{
+    color: #2874f0;
+
+}
+
+/*-------------------------dairy-----------------*/
+
+
+.clonedairy{
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.clonedairy img{
+    height: 64px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.clonedairy p{
+    font-weight: 510px;
+    text-align: center;
+}
+.clonedairy:hover p{
+    color: #2874f0;
+
+}
+
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.gallery{
+    
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.content
+{
+    width: 20%;
+    margin: 2%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0,10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16)
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+ima{
+    width: 5px;
+    height: 20px;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+
+}
+.paragraph{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked{
+    color: #ff9f43;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+.buy{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #2183a2;
+}
+@media(max-width:1000px){
+    .content{
+        width: 30%;
+
+    }
+}
+@media(max-width:1000px){
+    .content{
+        width: 60%;
+        
+    }
+}
+@media(max-width:1000px){
+    .content{
+        width: 100%;
+        
+    }
+}
+
+
+
+.footer{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    background-color: #1c2431;
+    border-bottom: 1px #b2bec3;
+    
+    
+}
+
+.footer_1{
+    height: 100px;
+    width: 250px;
+}
+.footer_2{
+    height: 100px;
+    width: 250px;
+}
+
+.footer_3{
+    height: 100px;
+    width: 250px;
+}
+
+
+.footer_4{
+    height: 100px;
+    width: 250px;
+}
+
+
+
+
+.footer_10{
+    padding: 10px;
+    color: #878787;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 9px
+   
+}
+
+.footer_20{
+    padding: 10px;
+    color: #878787;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 9px
+   
+}
+
+.footer_30{
+    padding: 10px;
+    color: #878787;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 9px
+   
+}
+
+.footer_40{
+    padding: 10px;
+    color: #878787;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 9px
+    
+   
+}
+
+.footer_1 a{
+    color:whitesmoke;
+}
+
+.footer_2 a{
+    color:whitesmoke;
+}
+
+.footer_3 a{
+    color:whitesmoke;
+}
+
+.footer_4 a{
+    color:whitesmoke;
+}
+
+.ancer p{
+    padding: 0px 5px 3px;
+    margin-top: 2px;
+    flex: 2;
+    display:flex ;
+    
+}
+
+.ancer:hover p{
+    color: aquamarine;
+}
